@@ -1,3 +1,16 @@
+/* 
+ * Handige fixes om problemen te voorkomen
+ */
+
+* {  
+  /* zorg dat border meetelt bij de width en height van boxen */
+  box-sizing: border-box;
+  /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  overflow: auto;
+  /* standaard marge 0 */
+  margin: 0px;
+}
+
 /* Basislayout */
 
 html, body {
