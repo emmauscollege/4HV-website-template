@@ -1,5 +1,5 @@
 /* 
- * Handige fixes om problemen te voorkomen
+ * Handige instellingen om problemen te voorkomen
  */
 
 * {  
@@ -10,6 +10,15 @@
   /* standaard marge 0 */
   margin: 0px;
 }
+
+/* 
+ * Handige instellingen om fouten te zoeken
+ */
+
+ * {  
+    /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+    /* border: 1px dotted black; */
+  }
 
 /* Basislayout */
 
