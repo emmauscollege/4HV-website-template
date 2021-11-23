@@ -18,6 +18,8 @@
  * {  
     /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
     /* border: 1px dotted black; */
+    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+    /* background-color: rgba(0,0,0,5%); */
   }
 
 /* Basislayout */
