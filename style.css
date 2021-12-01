@@ -1,43 +1,36 @@
+
 /* 
- * Handige instellingen om problemen te voorkomen
+ * Instellingen om fouten te helpen vinden
  */
 
-* {  
-  /* zorg dat border meetelt bij de width en height van boxen */
-  box-sizing: border-box;
-  /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders is het soms 0) */
-  overflow: auto;
-  /* standaard marge 0 */
-  margin: 0px;
+* {
+    /* border: 1px dotted black; */          /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* 
- * Handige instellingen om fouten te zoeken
+ * Basis instellingen
  */
 
- * {  
-    /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
-    /* border: 1px dotted black; */
-    /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
-    /* background-color: rgba(0,0,0,5%); */
-  }
+* {  
+  overflow: hidden;        /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  box-sizing: border-box;  /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;             /* standaard marge 0 */
+}
 
-/* Basislayout */
+/* Basislayout voor alle pagina's */
 
 html, body {
-    height: 100%;
-    padding: 0;
+    overflow: visible;    /* zorgt dat pagina groter kan zijn dan het window */
     background-color: #EEEEEE;  
-    
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
 
 
 main {
-    margin: 0 auto;
+    margin: 0 auto; /* boven en onder geen marge, links en rechts marge gelijk verdeeld (gecentreerd) */
     width: 700px;
-    position: relative;
 }
 
 
@@ -57,13 +50,14 @@ footer {
     padding-bottom: 10px;
 }
 
-
-/* specifieke stijlen */
+/* Layout voor specifieke pagina's */
 
 img.zweefLinks {
     float: left;
     margin-right: 15px;
 }
+
+/* Opmaak */
 
 .smalltext {
     font-size: 0.7em;
