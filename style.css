@@ -50,6 +50,13 @@ footer {
     padding-bottom: 10px;
 }
 
+h1 {
+  margin: 10px 0px;
+}
+
+p {
+  margin: 10px 0px;
+}
 /* Layout voor specifieke pagina's */
 
 img.zweefLinks {
