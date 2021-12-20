@@ -21,7 +21,7 @@
 /* Basislayout voor alle pagina's */
 
 html, body {
-    overflow: visible;    /* zorgt dat pagina groter kan zijn dan het window */
+    overflow: visible;    /* zorgt dat pagina scrollt als hij groter is dan het window */
     background-color: #EEEEEE;  
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
