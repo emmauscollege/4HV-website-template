@@ -27,7 +27,6 @@ main {
 }
 
 header {
-    text-align: center;          /* teskt centreren */
     margin: 10px 0px;
 }
 
@@ -39,9 +38,9 @@ footer {
     text-align: center;
 }
 
-h2 {
+h1, h2, h3 {                    /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;
+  text-align: center;           /* tekst centreren */
 } 
 
 p {
@@ -66,7 +65,7 @@ p {
 
 /* Opmaak voor alle pagina's */
 
-header {
+h1, h2, h3 {
       color: skyblue;
 }
 
