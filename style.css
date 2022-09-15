@@ -1,77 +1,69 @@
+/* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
 
-/* 
- * Instellingen om fouten te helpen vinden
- */
-
-* {
-    /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+* {                                          /* geldt voor alles */
+    /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
     /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
-/* 
- * Basis instellingen
- */
+/* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-* {  
-  overflow: hidden;        /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
-  box-sizing: border-box;  /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;             /* standaard marge 0 */
+html, body {                      /* geldt voor html en body */
+  margin: 0px;                    /* standaard marge 0 */
+  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  color: #303030;               /* tekstkleur donkergrijs */
+}  
+
+body * {                          /* geldt voor alles in body */
+  overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;                    /* standaard marge 0 */
 }
 
-/* Basislayout voor alle pagina's */
-
-html, body {
-    overflow: visible;    /* zorgt dat pagina scrollt als hij groter is dan het window */
-    background-color: #EEEEEE;  
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
-}
-
+/* Layout voor alle pagina's */
 
 main {
-    margin: 0 auto; /* boven en onder geen marge, links en rechts marge gelijk verdeeld (gecentreerd) */
-    width: 700px;
+    margin: 0 auto;               /* boven en onder geen marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+    width: 700px;                 /* vaste breedte van 700 pixels */
 }
-
-
-article {
-    text-align: justify;
-}
-
 
 header {
-    color: skyblue;
-    text-align: center;
+    text-align: center;          /* teskt centreren */
+    margin: 10px 0px;
 }
 
+article {
+  margin: 10px 0px;  
+}
 
 footer {
     text-align: center;
-    padding-bottom: 10px;
-}
-
-h1 {
-  margin: 10px 0px;
 }
 
 p {
   margin: 10px 0px;
+  text-align: justify;          /* tekst links en rechts uitvullen */
 }
+
 /* Layout voor hoofd pagina */
+
 .kolomLinks {
   float:left;
   width:250px;
+  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
   float:left;
   width: 450px;
-  padding:15px;
 }
 .kolomStop {
-  clear:both; /* stop met floaten */
+  clear:both;                   /* stop met floaten */
 }
 
-/* Opmaak */
+/* Opmaak voor alle pagina's */
+
+header {
+      color: skyblue;
+}
 
 .smalltext {
     font-size: 0.7em;
@@ -87,7 +79,7 @@ a:hover {
 }
 
 
-/* navigatiebalk */
+/* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -115,7 +107,3 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
-
-
-
-

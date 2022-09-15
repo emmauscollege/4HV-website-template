@@ -39,7 +39,7 @@ Stap 5: Lay-out subpagina's
 Stap 6: Inhoud en plaatjes subpagina's
 - [ ] Je hebt de inhoud en plaatjes voor al je subpagina's gemaakt.
 
-Stap 7: Kleuren 
+Stap 7: Opmaak 
 - [ ] Je hebt kleuren en fonts gekozen. 
 - [ ] Je hebt de kleuren en fonts in CSS toegevoegd. 
 
