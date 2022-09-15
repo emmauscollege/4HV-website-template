@@ -4,7 +4,7 @@
  */
 
 * {
-    /* border: 1px dotted black; */          /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+    /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
     /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
@@ -57,11 +57,18 @@ h1 {
 p {
   margin: 10px 0px;
 }
-/* Layout voor specifieke pagina's */
-
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+/* Layout voor hoofd pagina */
+.kolomLinks {
+  float:left;
+  width:250px;
+}
+.kolomRechts {
+  float:left;
+  width: 450px;
+  padding:15px;
+}
+.kolomStop {
+  clear:both; /* stop met floaten */
 }
 
 /* Opmaak */
