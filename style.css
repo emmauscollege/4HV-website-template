@@ -39,6 +39,11 @@ footer {
     text-align: center;
 }
 
+h2 {
+  margin: 10px 0px;
+  text-align: center;
+} 
+
 p {
   margin: 10px 0px;
   text-align: justify;          /* tekst links en rechts uitvullen */

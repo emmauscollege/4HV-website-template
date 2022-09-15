@@ -65,8 +65,8 @@ https://www.w3schools.com/tags/default.asp
 https://www.w3schools.com/cssref/default.asp
 - w3schools howto's 
 https://www.w3schools.com/howto/default.asp
-- informatie van Emmauscollege over website opdracht
-https://emmauscollege.github.io/informatica/website/
+- check of je html en css volgens de standaarden is
+https://validator.w3.org/
 
 ## Credits
 - Website template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-website-template
