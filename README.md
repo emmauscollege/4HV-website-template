@@ -30,14 +30,14 @@ Stap 3: Lay-out hoofdpagina
 - [ ] Je hebt de onderdelen uit de layout in je html benoemd met tags, classes en/of ID’s. Je hebt met CSS ervoor gezorgd dat deze onderdelen op de juiste plaats op de pagina worden weergegeven.
 
 Stap 4: Inhoud en plaatjes hoofdpagina
-- [ ] Je hebt in html de inhoud op je hoofdpagina en al je subpagina’s gezet. 
-- [ ] Je hebt plaatjes bij je inhoud gezocht, omgezet naar de juiste resolutie en op je website gezet. Alle plaatjes moet je opslaan, je linkt niet naar plaatjes op andere websites, die kunnen immers verwijderd worden. 
+- [ ] Je hebt in html de tekst op je hoofdpagina gezet. 
+- [ ] Je hebt plaatjes bij je teksten gezocht, omgezet naar de juiste resolutie en op je website gezet. Alle plaatjes moet je opslaan, je linkt niet naar plaatjes op andere websites, die kunnen immers verwijderd worden. 
 
 Stap 5: Lay-out subpagina's
 - [ ] Je hebt een layout voor al je subpagina's gemaakt. Het is handig om voor al je pagina’s dezelfde lay-out te gebruiken. 
 
 Stap 6: Inhoud en plaatjes subpagina's
-- [ ] Je hebt de inhoud en plaatjes voor al je subpagina's gemaakt.
+- [ ] Je hebt de tekst en plaatjes voor al je subpagina's gemaakt.
 
 Stap 7: Opmaak 
 - [ ] Je hebt kleuren en fonts gekozen. 
