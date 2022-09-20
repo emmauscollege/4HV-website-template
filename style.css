@@ -19,36 +19,28 @@ body * {                          /* geldt voor alles in body */
   margin: 0px;                    /* standaard marge 0 */
 }
 
-/* Layout voor alle pagina's */
+/* Indeling voor alle pagina's */
 
-main {
-    margin: 0 auto;               /* boven en onder geen marge, links en rechts marge gelijk verdeeld (gecentreerd) */
-    width: 700px;                 /* vaste breedte van 700 pixels */
-}
-
-header {
-    margin: 10px 0px;
-}
-
-article {
-  margin: 10px 0px;  
-}
-
-footer {
-    text-align: center;
-}
-
-h1, h2, h3 {                    /* geldt voor h1 en h2 en h3 */
+header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
-  text-align: center;           /* tekst centreren */
+}
+
+nav, main {                       /* geldt voor nav en main */
+  width: 700px;                   /* vaste breedte van 700 pixels */
+  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+}
+
+h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+  margin: 10px 0px;
+  text-align: center;             /* tekst centreren */
 } 
 
 p {
   margin: 10px 0px;
-  text-align: justify;          /* tekst links en rechts uitvullen */
+  text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-/* Layout voor hoofd pagina */
+/* Indeling voor hoofd pagina */
 
 .kolomLinks {
   float:left;
@@ -70,6 +62,7 @@ h1, h2, h3 {
 }
 
 .smalltext {
+    text-align: center;
     font-size: 0.7em;
 }
 
