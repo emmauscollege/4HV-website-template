@@ -1,5 +1,15 @@
-# Startcode voor website-opdracht
-Deze repo wordt aan leerlingen gegeven bij de start van hun website-opdracht.
+Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
+
+[Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
+
+## *zet hier de titel van je website*
+
+*zet hier een korte beschrijving van de informatie die je kunt vinden op je website*
+
+## Planning
+Werk de planning af van boven naar beneden<br>
+Vul de planning aan en stel bij terwijl je aan de opdracht werkt
+Geef aan met [x] welke onderdelen af zijn
 
 ## Planning
 Werk de planning af van boven naar beneden<br>
