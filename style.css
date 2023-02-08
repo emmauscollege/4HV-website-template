@@ -52,19 +52,22 @@ p {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
+img {
+  margin: 10px 0px;
+}
+
 /* Indeling voor hoofd pagina */
 
-.kolomLinks {
+/* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+
+.item-plaatje {
   float:left;
   width:250px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
-.kolomRechts {
-  float:left;
+.item-tekst {
+  float:right;
   width: 450px;
-}
-.kolomStop {
-  clear:both;                   /* stop met floaten */
 }
 
 /* Indeling voor sub pagina */
