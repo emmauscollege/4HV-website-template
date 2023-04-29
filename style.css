@@ -1,11 +1,22 @@
-/* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
+/* Instellingen tussen commentaar zijn handig om fouten te helpen vinden, uncomment om aan te zetten */
 
-* {                                          /* geldt voor alles */
-    /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
-}
+/* zorg dat elke box een gestippelde rand krijgt, 
+   zodat je de afmeting goed kunt zien, 
+   letop 1: dit kan de layout soms kan wijzigen 
+   letop 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
+/*  * {border: 1px dotted black;}   */
+  
+/* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
+   hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
+   letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
+/*  * {background-color: rgba(0,0,0,5%);}  */
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
+
+* {                                        /* geldt voor alles */
+  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;                             /* standaard marge 0 */
+}
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
@@ -13,17 +24,15 @@ html, body {                      /* geldt voor html en body */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
-body * {                          /* geldt voor alles in body */
-  overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
-  box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                    /* standaard marge 0 */
+div {                             /* geldt voor div */
+  overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
 
 /* Indeling voor alle pagina's */
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -43,20 +52,25 @@ p {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
+img {
+  margin: 10px 0px;
+}
+
 /* Indeling voor hoofd pagina */
 
-.kolomLinks {
+/* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+
+.item-plaatje {
   float:left;
   width:250px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
-.kolomRechts {
-  float:left;
+.item-tekst {
+  float:right;
   width: 450px;
 }
-.kolomStop {
-  clear:both;                   /* stop met floaten */
-}
+
+/* Indeling voor sub pagina */
 
 /* Opmaak voor alle pagina's */
 
@@ -78,6 +92,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
