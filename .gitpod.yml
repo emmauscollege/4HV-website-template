@@ -1,8 +1,15 @@
+
 ports:
   - port: 8080
     onOpen: open-browser
 tasks:
   - name: webserver
     command: npx --yes http-server -c-1 # webserver on port 8080 no cache
+  - name: git
+    command: git config pull.rebase false
   - name: shell
     command: >
+
+vscode:
+  extensions:
+    - mhutchie.git-graph
