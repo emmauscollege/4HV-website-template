@@ -5,9 +5,8 @@ ports:
 tasks:
   - name: webserver
     command: npx --yes http-server -c-1 # webserver on port 8080 no cache
-  - name: git
-    command: git config pull.rebase false
   - name: shell
+    init: git config pull.rebase false
     command: >
 
 vscode:
