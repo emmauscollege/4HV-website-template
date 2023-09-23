@@ -1,9 +1,10 @@
-/* Instellingen tussen commentaar zijn handig om fouten te helpen vinden, uncomment om aan te zetten */
+/* Instellingen om fouten te helpen vinden,
+   uncomment om aan te zetten */
 
 /* zorg dat elke box een gestippelde rand krijgt, 
    zodat je de afmeting goed kunt zien, 
-   letop 1: dit kan de layout soms kan wijzigen 
-   letop 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
+   let op 1: dit kan de layout soms kan wijzigen 
+   let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
 /*  * {border: 1px dotted black;}   */
   
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
@@ -11,28 +12,36 @@
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
 /*  * {background-color: rgba(0,0,0,5%);}  */
 
+
+/************************* BASISINSTELLINGEN *************************/
+
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-* {                                        /* geldt voor alles */
-  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                             /* standaard marge 0 */
+* {                               /* geldt voor alles */
+  box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;                    /* standaard marge 0 pixels */
 }
 
 html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
   background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+  overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
+                                     (anders tellen de floats erin niet mee voor de hoogte
+                                     en wordt dus wel eens hoogte 0) */
 }
 
-/* Indeling voor alle pagina's */
+
+/************************* ALLE WEBPAGINA'S *************************/
+
+/* Indeling en opmaak voor alle pagina's */
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  margin: 10px auto;              /* boven en onder 10 pixels marge,
+                                     links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -40,11 +49,13 @@ header, footer {                  /* geldt voor header en footer */
 }
 
 main {                       
-  text-align: justify;            /* tekst uitvullen */}
+  text-align: justify;            /* tekst links en rechts uitvullen */
+}
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
+  color: skyblue;
 } 
 
 p {
@@ -56,69 +67,72 @@ img {
   margin: 10px 0px;
 }
 
-/* Indeling voor hoofd pagina */
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a:hover {                         /* <a> als je er met de muis op staat */
+  text-decoration: underline;
+}
+
+.smalltext {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+/************************* NAVIGATIEBALK *************************/
+
+/* navigatiebalk voor alle pagina's */
+
+nav ul {                        /* <ul> die child is van <nav> */
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  background-color: #dddddd;
+  overflow: hidden;
+}
+
+nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #aaaaaa;
+}
+
+nav li a.active {
+  background-color: skyblue;
+}
+
+
+/************************* HOOFDPAGINA *************************/
+
+/* Indeling en opmaak voor hoofdpagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item-plaatje {
-  float:left;
-  width:250px;
+  float: left;
+  width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
+
 .item-tekst {
-  float:right;
+  float: right;
   width: 450px;
 }
 
-/* Indeling voor sub pagina */
+/************************* SUBPAGINA *************************/
 
-/* Opmaak voor alle pagina's */
+/* Indeling en opmaak voor subpagina */
 
-h1, h2, h3 {
-      color: skyblue;
-}
-
-.smalltext {
-    text-align: center;
-    font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Opmaak voor sub pagina's */
-
-/* Navigatiebalk voor alle pagina's */
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #aaaaaa;
-}
-
-nav li a.active {
-    background-color: skyblue;
-}
+/* verzin deze zelf... */
