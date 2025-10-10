@@ -11,6 +11,8 @@
   
     "files.exclude": {                    // hide dot-files and -folders in vscode
      ".*": true,
-    }
+    },
+
+    "chat.disableAIFeatures": true,
   }
   
