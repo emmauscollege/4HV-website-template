@@ -1,0 +1,16 @@
+In deze map komt je ontwerpfase. Je levert dit twee keer in als PDF-bestand:
+- Versie 1: de vrijdag na de herfstvakantie
+- Versie 2: bij het einde van het PO
+
+Noem de bestanden duidelijk, bijvoorbeeld:
+- Ontwerpfase_V1.pdf
+- Ontwerpfase_V2.pdf
+
+Verwijder versie 1 niet wanneer je versie 2 toevoegt.
+Als je te laat inlevert of versie 1 verwijdert, krijg je puntenaftrek.
+
+Zorg dat je PDF alle onderdelen bevat:
+- Onderwerp + verdeling over pagina’s
+- Sitemap
+- Kleurenstaal (met HEX-codes)
+- Wireframe(s)
