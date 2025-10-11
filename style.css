@@ -44,11 +44,11 @@ div {                             /* geldt voor div */
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
-header, footer {                  /* geldt voor header en footer */
+.header, .footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
-main {                       
+.main {                       
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
@@ -85,7 +85,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
 /* navigatiebalk voor alle pagina's */
 
-nav ul {                        /* <ul> die child is van <nav> */
+.nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
@@ -93,11 +93,11 @@ nav ul {                        /* <ul> die child is van <nav> */
   overflow: hidden;
 }
 
-nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
+.nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
   float: left;
 }
 
-nav li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -105,11 +105,11 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover {
+.nav li a:hover {
   background-color: #aaaaaa;
 }
 
-nav li a.active {
+.nav li a.active {
   background-color: skyblue;
 }
 
